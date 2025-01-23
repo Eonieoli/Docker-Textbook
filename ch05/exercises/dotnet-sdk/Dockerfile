@@ -5,5 +5,5 @@ LABEL version="3.0"
 LABEL description=".NET Core 3.0 SDK"
 LABEL owner="golden-images@sixeyed.com"
 
-WORKDIR src
+WORKDIR /src
 COPY global.json .
