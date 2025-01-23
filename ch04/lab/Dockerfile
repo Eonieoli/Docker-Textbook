@@ -1,6 +1,6 @@
 FROM diamol/golang 
 
-WORKDIR web
+WORKDIR /web
 COPY index.html .
 COPY main.go .
 
