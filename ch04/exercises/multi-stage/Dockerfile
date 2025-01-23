@@ -7,4 +7,4 @@ RUN echo 'Testing...' >> /build.txt
 
 FROM diamol/base
 COPY --from=test-stage /build.txt /build.txt
-CMD cat /build.txt
+CMD ["cat", "/build.txt"]
