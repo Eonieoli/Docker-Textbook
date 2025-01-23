@@ -11,6 +11,6 @@ EXPOSE 80
 CMD ["/web/server"]
 ENV USER="sixeyed"
 
-WORKDIR web
+WORKDIR /web
 COPY --from=builder /server .
 COPY index.html .
